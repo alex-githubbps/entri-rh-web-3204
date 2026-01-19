@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entri RH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+
+<h3>Entri RH Petugas</h3>
+
+<form method="post" enctype="multipart/form-data">
+    <label>Kecamatan</label>
+    <select name="kecamatan" class="form-control">
+        <option>Paseh</option>
+        <option>Cikancung</option>
+    </select>
+
+    <label class="mt-2">Petugas</label>
+    <select name="petugas" class="form-control">
+        <option>Roni</option>
+        <option>Nono</option>
+    </select>
+
+    <label class="mt-2">Upload Excel RH + Konversi</label>
+    <input type="file" name="file" class="form-control" required>
+
+    <button class="btn btn-primary mt-3">Proses & Download Excel</button>
+</form>
+
+</body>
+</html>
